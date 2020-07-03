@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 
 app.get('/',(req,res)=>{
-    res.send('Hello Braj Kishro and Welcome!!')
+    res.json({"hello":"I am happy to deploy my application"})
 })
 
 
